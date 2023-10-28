@@ -5,14 +5,41 @@
   font-family: 'Mukta', sans-serif;
 }
 
-nav{
-  display: grid;
-  grid-template-columns: 1fr 3fr 1fr;
-  justify-items: center;
-  align-items: center;
+:root{
+    --background-color1: rgb(73, 94, 87);
+    --background-color2: rgb(244, 207, 20);
+    --price-color: rgb(238, 153, 114);
+    --footer-color: #333333;
+    --button-text-color: #ffffff;
+    --card-background-color: #edefee;
 }
 
-ul{
+nav{
   display: grid;
-  grid-auto-flow: column;
+  
+}
+
+header{
+  background-color: var(--background-color2);
+}
+
+.item-cards{
+  background-color: var(--card-background-color);
+}
+
+.testimonial-cards{
+  background-color: var(--button-text-color);
+}
+
+article{
+  background-color: var(--background-color2);
+}
+
+button{
+  background-color: var(--background-color1);
+  color: var(--button-text-color);
+}
+
+footer{
+  background-color: var(--background-color2);
 }
