@@ -1,31 +1,10 @@
 import './App.css';
+import { Header } from './components/Header';
 
 function App() {
   return (
     <body>
-      <nav className="nav">
-        <img src='/icon_assets/Logo.svg'/>
-        <li>
-          <a HREF=''>
-            <ul>Home</ul>
-          </a>
-          <a HREF=''>
-            <ul>About</ul>
-          </a>
-          <a HREF=''>
-            <ul>Menu</ul>
-          </a>
-          <a HREF=''>
-            <ul>Reservations</ul>
-          </a>
-          <a HREF=''>
-            <ul>Order Online</ul>
-          </a>
-          <a HREF=''>
-            <ul>Login</ul>
-          </a>
-        </li>
-      </nav>
+      <Header/>
       <header>
         <h1>Little Lemon</h1>
         <h3>Chicago</h3>
